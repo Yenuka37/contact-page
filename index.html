@@ -136,6 +136,20 @@
 			.blr {
 				filter : brightness(45%) ;
 				}
+			.flex-container {
+  				display: flex;
+ 				background-color: #f1f1f1;
+				}
+
+			.flex-container > div {
+ 				 background-color: DodgerBlue;
+ 				 color: white;
+ 				 width: 100px;
+ 				 margin: 10px;
+ 				 text-align: center;
+ 				 line-height: 75px;
+				 font-size: 30px;
+				}
 		</style>
 	</head>
 	
@@ -177,14 +191,11 @@
 				</form>
 			</div>
 			<center><font size='7'>Contact</font><br><br>
-			<table cellpadding='5'>
-				<tr><td><img src='location.png'></td><td><font size='5' class='ff'>Address</font></td></tr>
-				<tr><td></td><td>1624 Market St, Ste 226 #67623<br><br>Denver, Colorado 80202-2523</td></tr>
-				<tr><td><img src='mobile.png'></td><td><font size='5' class='ff'>Phone</font></td></tr>
-				<tr><td></td><td>866-AVLancer,866-285-2623</td></tr>
-				<tr><td><img src='telephone.png'></td><td><font size='5' class='ff'>Fax</font></td></tr>
-				<tr><td></td><td>303-568-6007</td></tr>
-			</table>
+			<div class='flex-container'>
+				<div><img src='location.png'></div><div>Address<br>1624 Market St, Ste 226 #67623<br>Denver, Colorado 80202-2523</div>
+				<div><img src='mobile.png'></div><div>Phone<br>866-AVLancer,866-285-2623</div>
+				<div><img src='telephone.png'></div><div>Fax<br>303-568-6007</div>
+			</div>
 			</center>
 		</div>
 		<div class='dg'>
