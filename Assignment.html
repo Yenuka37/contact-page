@@ -1,0 +1,86 @@
+<!doctype html>
+
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Bootstrap Using</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" href="css/bootstrap.css">
+		
+		<style>
+			.flex-container {
+  				display: flex ;
+				}
+
+			.flex-container > div {
+ 				 color: #4863A0;
+ 				 width: 260px;
+ 				 margin: 20px;
+ 				 text-align: justify;
+ 				 line-height: 30px;
+				 font-size: 25px;
+				}
+		</style>
+		
+	</head>
+
+	<body>
+	
+		<nav class="navbar navbar-dark navbar-expand-sm bg-dark">
+			<div class="container-fluid">
+				<a href="" class="navbar-brand"><img src="assets/AVLancer-Header-Logo.png"></a>
+				<button class="btn btn-outline-warning">Are you a freelancer</button>
+				<button class="navbar-toggler" type="button" data-target="#c">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-center" id="c">
+					<ul class="navbar nav">
+						<li class="nav-item"><a class="nav-link">About</a></li>
+						<li class="nav-item"><a class="nav-link">Contact</a></li>
+						<li class="nav-item"><button class="btn btn-primary">Sign in</button></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12" style="height:300px;"><img src="home_banner.png" style="width:100%; height:100%;"></div>
+				<div class="col-md-6" style="background:white; height:600px;">
+					<center><font size="7">Contact</font></center>
+					<div class="container">
+						<div class="flex-container">
+							<div><img src="assets/location.png" align="right"></div><div>Address<br><font size="3" color="black">1624 Market St, Ste 226 #67623<br>Denver, Colorado 80202-2523</font></div>
+						</div>
+						<div class="flex-container">
+							<div><img src="assets/mobile.png" align="right"></div><div>Phone<br><font size="3" color="black">866-AVLancer,866-285-2623</font></div>
+						</div>
+						<div class="flex-container">
+							<div><img src="assets/telephone.png" align="right"></div><div>Fax<br><font size="3" color="black">303-568-6007</font></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6" style="background:#4863A0; height:600px;">
+					<div class="row">
+						<div class="col-12">
+							<br><input type="text" value="Name">
+						</div>
+						<div class="col-12">
+							<br><input type="text" value="Name">
+						</div>
+						<div class="col-12">
+							<br><input type="text" value="Name">
+						</div>
+						<div class="col-12">
+							<br><input type="text" value="Name">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	
+</html>
